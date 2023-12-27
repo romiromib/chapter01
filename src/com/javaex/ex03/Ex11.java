@@ -12,6 +12,8 @@ public class Ex11 {
 		int month = sc.nextInt();
 		int days;		
 		
+		//switch문의 경우 기본자료형은 float와 long을 제외하고 다 사용가능.
+		
 		switch(month) {
 		case 4,6,9,11:
 			days = 30;
