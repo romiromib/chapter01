@@ -10,17 +10,17 @@ public class Ex05 {
 		
 		System.out.print("근무시간:");
 		int time = sc.nextInt();
+		double salary;
 		
 		if(time<=8) {
-			
-			System.out.println("임금은 "+ time*10000 +"원 입니다.");	
+			salary = time*10000;	
 			}
 		
 		else {
-			double OT=1.5*10000*(time-8)+80000;
-			System.out.println("임금은 "+ (int) OT +"원 입니다.");
+			salary =1.5*10000*(time-8)+80000;			
 			}
 			
+		System.out.println("임금은 "+ (int)salary +"원 입니다.");
 		
 		sc.close();
 			

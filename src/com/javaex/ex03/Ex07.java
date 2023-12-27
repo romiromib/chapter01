@@ -14,7 +14,7 @@ public class Ex07 {
 		if(point>=90) {
 			System.out.println("A등급");
 		}
-		else if(point>=80) {
+		else if(point>=80) {   //(90>point && point>=80)
 			System.out.println("B등급");
 		}
 		else if(point>=70) {
